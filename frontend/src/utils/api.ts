@@ -3,7 +3,7 @@ import axios from 'axios';
 import { AttendeeFeedback, SAMPLE_FEEDBACK } from './feedbackData';
 import { Team } from './teamData';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://eventsync-mo1v.onrender.com/api';
 
 // Configure axios
 const api = axios.create({
